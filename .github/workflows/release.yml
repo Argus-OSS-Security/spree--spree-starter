@@ -1,9 +1,10 @@
 name: Release Docker Image
 
-on:
-  push:
-    tags: ['v*']
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
+#     tags: ['v*']
+# 
 permissions:
   contents: read
   packages: write
